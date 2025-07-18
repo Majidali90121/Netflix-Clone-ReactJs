@@ -45,11 +45,9 @@
   grid-template-columns: repeat(5, 1fr); 
   gap: 15px;
   padding: 20px;
-  background-color: #000;
 }
 
 .search-result {
-  background: #222;
   border-radius: 8px;
   overflow: hidden;
   color: white;
@@ -59,7 +57,7 @@
 
 .search-result img {
   width: 100%;
-  height: auto;
+  height: 300px;
   object-fit: cover;
 }
 
