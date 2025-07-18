@@ -1,0 +1,41 @@
+.account-container{
+    padding:50px 20px;
+    color:white;
+    min-height: 100vh;
+}
+.account-container h2{
+    text-align: center;
+    color:#e50914;
+    font-size: 64px;
+    margin-top: 10px;
+}
+.c{
+    display:block;
+    margin:20px auto;
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    border:2px solid #e50914;
+}
+.account-container p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color:#ccc;
+    text-align: center;
+}
+.account-container button{
+    padding:10px 20px;
+    background: #e50914;
+    color:white;
+    border:none;
+    border-radius: 8px;
+    cursor:pointer;
+    font-weight: bold;
+    display:block;
+    margin:20px auto;
+    text-align: center;
+    transition: background 0.4s ease;
+}
+.account-container button:hover{
+    background: #b00610;
+}

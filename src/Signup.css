@@ -1,0 +1,47 @@
+.sign{
+    max-width: 400px;
+    margin:100px auto;
+    padding:30px;
+    border-radius: 8px;
+    text-align: center;
+    color:white;
+    box-shadow:0 0 10px rgba(255,255,255,0.7); 
+}
+.sign h2{
+    color:#e50914;
+    margin-bottom: 20px;
+    font-size: 48px;
+}
+.sign input{
+    width:100%;
+    padding:12px;
+    border:none;
+    margin-bottom: 10px;
+    color:white;
+    font-size: 16px;
+    border-radius: 8px;
+}
+.sign button{
+    width:100%;
+    background:#e50914;
+    padding:12px;
+    border:none;
+    font-size: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor:pointer;
+    transition:background 0.4s ease;
+}
+.sign button:hover{
+    background-color: #b00610;
+}
+.sign p{
+    margin-top: 15px;
+    color:#e50914;
+    font-size: 14px;
+    cursor:pointer
+}
+.sign p:hover{
+    text-decoration: underline;
+}

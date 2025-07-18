@@ -1,0 +1,17 @@
+.banner{
+    position:relative;
+    background:cover;
+    background-position: center center;
+    display:flex;
+    justify-content: center;
+    padding:30px 15px;
+}
+h2{
+   font-size: 80px;
+}
+.a{
+    color:darkred;
+}
+.b{
+    color:red;
+}
