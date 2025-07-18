@@ -39,19 +39,30 @@
    cursor:pointer;
    border:2px solid white;
 }
-.search-result{
-  display:flex;
-  flex-wrap: wrap;
-  gap:15px;
-  padding:20px;
-  justify-content: flex-start;
+
+.search-results {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  gap: 15px;
+  padding: 20px;
+  background-color: #000;
 }
-.search-result img{
-  width:160px;
+
+.search-result {
+  background: #222;
   border-radius: 8px;
-  object-fit: cover;
-  transition: transform 0.4s ease-in-out;
+  overflow: hidden;
+  color: white;
+  text-align: center;
+  transition: transform 0.3s;
 }
-.search-result img:hover{
-  transform:scale(1.1);
+
+.search-result img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.search-result:hover {
+  transform: scale(1.03);
 }

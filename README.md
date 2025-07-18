@@ -80,7 +80,6 @@ Includes:
 - React.js  
 - CSS (Flexbox/Grid)  
 - React Router  
-- Axios for API calls
 
 ---
 

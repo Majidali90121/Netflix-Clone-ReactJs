@@ -13,7 +13,8 @@ export default function Navbar({ name, onShowAccount }) {
   };
 
   return (
-    <div className="navbar">
+    <div>
+      <div className="navbar">
       <h1 className='navbar-logo'>Netflix Clone</h1>
       <form onSubmit={handleSearch} className="search-form">
         <input
@@ -30,16 +31,16 @@ export default function Navbar({ name, onShowAccount }) {
           alt="avatar"
         />
       </div>
-      {results.length > 0 && (
-        <div className="search-results">
-          {results.slice(0, 5).map((movie, i) => (
-            <div key={i} className="search-result">
-              <img src={`https://image.tmdb.org/t/p/w92${movie.poster_path}`} alt={movie.title} />
-              <span>{movie.title}</span>
-            </div>
-          ))}
-        </div>
-      )}
+      </div>
+     <div className="search-results">
+  {results.slice(0, 6).map((movie, i) => (
+    <div key={i} className="search-result">
+      <img src={`https://image.tmdb.org/t/p/w185${movie.poster_path}`} alt={movie.title} />
+      <span>{movie.title}</span>
+    </div>
+  ))}
+</div>
+
     </div>
   );
 }
