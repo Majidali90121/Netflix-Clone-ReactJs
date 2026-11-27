@@ -1,6 +1,6 @@
 
 
-app = 'netflix-clone'
+app = 'netflix-clone-react.js'
 primary_region = 'iad'
 
 [build]
